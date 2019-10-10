@@ -1,0 +1,72 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebApplication1.WebForm1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <asp:Panel ID="Panel1" runat="server" Height="438px" Width="45px" BorderColor="#00CC66">
+            <asp:Panel ID="Panel2" runat="server" style="position: relative; top: 0px; left: 49px; width: 842px; height: 48px">
+                <asp:Image ID="Image1" runat="server" Height="59px" ImageUrl="~/logo whitepanda.png" Width="197px" />
+                <asp:ImageButton ID="ImageButton4" runat="server" style="position: relative; top: -12px; left: 521px; height: 40px; width: 47px" ImageUrl="~/account icon.PNG" />
+                <asp:Image ID="Image2" runat="server" style="position: relative; top: -11px; left: 413px; width: 55px; height: 41px" ImageUrl="~/bell icon.PNG" />
+            </asp:Panel>
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="37px" ImageUrl="~/application icon.PNG" Width="38px" />
+            <asp:ImageButton ID="ImageButton2" runat="server" Height="35px" ImageUrl="~/search bar.png" Width="38px" />
+            <asp:ImageButton ID="ImageButton3" runat="server" Height="39px" ImageUrl="~/3rd icon.PNG" Width="38px" />
+            <asp:Panel ID="Panel3" runat="server" style="position: relative; top: -105px; left: 54px; height: 1225px; width: 854px">
+                &nbsp;
+                <asp:Label ID="Label1" runat="server" BorderColor="Black" BorderStyle="None" Font-Bold="True" Font-Size="X-Large" style="position: relative; top: 22px; left: 59px; height: 34px; width: 201px;" Text="Content Store"></asp:Label>
+                <asp:HyperLink ID="HyperLink1" runat="server" Font-Size="Large" ForeColor="#33CCFF" style="position: absolute; z-index: 1; left: 18px; top: 121px; height: 26px; width: 797px">Got bulk orders or similar orders ? Fill the order brief in an excel sheet</asp:HyperLink>
+                <div style="position: relative; top: 117px; left: 2px; height: 76px">
+                    If you are wondering about an easy way to place orders in large numbers, we provode a way customized just for that.<br /> Download our excel sheet, and fill the order brief in the prescribed format and submit . In case you need any help, we are just a click away to assist you in place your order</div>
+                <asp:Button ID="Button1" runat="server" style="position: relative; top: 127px; left: 29px; height: 37px; width: 165px" Text="Order via Excel sheet" />
+                <asp:Image ID="Image13" runat="server" ImageUrl="~/last.JPG" style="position: relative; top: 948px; left: -6px; height: 163px; width: 500px" />
+                <asp:Panel ID="Panel7" runat="server" style="position: relative; top: 233px; left: 14px; width: 217px; height: 201px">
+                    <asp:Image ID="Image6" runat="server" Height="157px" ImageUrl="~/7.PNG" Width="211px" />
+                    <asp:Button ID="Button5" runat="server" style="position: relative; top: 9px; left: 64px; width: 101px; height: 26px" Text="Order" BackColor="White" BorderColor="#009900" />
+                </asp:Panel>
+                <asp:Panel ID="Panel12" runat="server" style="position: relative; top: 291px; left: 572px; height: 187px;" Width="241px">
+                    <asp:Image ID="Image11" runat="server" Height="156px" ImageUrl="~/12.PNG" Width="238px" />
+                    <asp:Button ID="Button11" runat="server" style="position: relative; top: 1px; left: 78px; width: 76px" Text="Order" BackColor="White" BorderColor="#009900" />
+                </asp:Panel>
+                <asp:Panel ID="Panel11" runat="server" style="position: relative; top: 92px; left: 304px; width: 242px; height: 229px;">
+                    <asp:Image ID="Image10" runat="server" ImageUrl="~/11.PNG" style="position: relative; top: 4px; left: -2px; height: 148px" Width="237px" />
+                    <asp:Button ID="Button10" runat="server" style="position: relative; top: 25px; left: 44px; width: 111px; height: 24px" Text="Order" BackColor="White" BorderColor="#33CC33" />
+                </asp:Panel>
+                <asp:Panel ID="Panel10" runat="server" style="position: relative; top: -141px; left: 8px; width: 270px; height: 206px;">
+                    <asp:Image ID="Image9" runat="server" Height="161px" ImageUrl="~/10.PNG" Width="266px" />
+                    <asp:Button ID="Button9" runat="server" style="position: relative; top: 11px; left: 86px; width: 89px" Text="Order" BackColor="White" BorderColor="#009900" />
+                </asp:Panel>
+                <asp:Panel ID="Panel9" runat="server" style="position: relative; top: -594px; left: 564px; width: 258px; height: 198px;">
+                    <asp:Image ID="Image8" runat="server" Height="161px" ImageUrl="~/9.PNG" Width="253px" />
+                    <asp:Button ID="Button8" runat="server" style="position: relative; top: 0px; left: 71px; width: 108px" Text="Order" BackColor="White" BorderColor="#009900" />
+                </asp:Panel>
+                <asp:Panel ID="Panel8" runat="server" style="position: relative; width: 264px; height: 194px; top: -794px; left: 261px">
+                    <asp:Image ID="Image7" runat="server" Height="160px" ImageUrl="~/8.PNG" Width="256px" />
+                    <asp:Button ID="Button7" runat="server" style="position: relative; top: 0px; left: 70px; width: 110px" Text="Order" BackColor="White" BorderColor="#009900" />
+                </asp:Panel>
+                <asp:Panel ID="Panel4" runat="server" style="position: relative; top: -1214px; left: 13px; width: 214px; height: 180px">
+                    <asp:Image ID="Image3" runat="server" Height="123px" ImageUrl="~/label4.PNG" Width="208px" />
+                    <asp:Button ID="Button2" runat="server" style="position: relative; top: 15px; left: 49px; width: 106px; height: 26px" Text="Order" BackColor="White" BorderColor="#009900" />
+                </asp:Panel>
+                <asp:Panel ID="Panel6" runat="server" style="position: relative; top: -1386px; left: 544px; width: 304px; height: 170px">
+                    <asp:Image ID="Image5" runat="server" Height="133px" ImageUrl="~/6.PNG" Width="300px" />
+                    <asp:Button ID="Button4" runat="server" style="position: relative; top: 0px; left: 87px; width: 113px" Text="Order" BackColor="White" BorderColor="#009900" />
+                </asp:Panel>
+                <asp:Panel ID="Panel5" runat="server" style="position: relative; top: -1555px; left: 254px; width: 261px; height: 172px">
+                    <asp:Image ID="Image4" runat="server" Height="117px" ImageUrl="~/label5.PNG" Width="255px" style="position: relative" />
+                    <asp:Button ID="Button3" runat="server" style="position: relative; top: 8px; left: 65px; width: 112px; height: 28px" Text="Order" BackColor="White" BorderColor="#009900" />
+                </asp:Panel>
+            </asp:Panel>
+        </asp:Panel>
+    
+    </div>
+    </form>
+</body>
+</html>
